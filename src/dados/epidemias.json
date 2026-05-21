@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "dengue",
+    "nome": "Dengue",
+    "emoji": "🦟",
+    "corDestaque": "#DC2626",
+    "transmissao": "Picada da fêmea do mosquito Aedes aegypti infectada.",
+    "descricao": "A dengue é uma doença viral transmitida por mosquitos, comum em regiões tropicais. Pode evoluir de quadros leves até formas graves, com sangramento e desidratação severa.",
+    "periodoIncubacao": "De 4 a 10 dias após a picada.",
+    "sintomas": [
+      { "rotulo": "Febre alta (acima de 38,5°C)", "icone": "termometro" },
+      { "rotulo": "Dor atrás dos olhos", "icone": "olho" },
+      { "rotulo": "Dor no corpo e nas articulações", "icone": "corpo" },
+      { "rotulo": "Manchas vermelhas na pele", "icone": "pele" },
+      { "rotulo": "Náuseas e cansaço", "icone": "nausea" }
+    ],
+    "agravamento": [
+      "Sangramento nas gengivas, nariz ou pele",
+      "Dor abdominal intensa e contínua",
+      "Vômitos persistentes",
+      "Tontura ao levantar e desmaio",
+      "Pele fria, pegajosa ou muito pálida"
+    ],
+    "prevencao": [
+      { "titulo": "Elimine água parada", "texto": "Pneus, vasos, calhas, garrafas — tudo que acumula água vira criadouro." },
+      { "titulo": "Use repelente", "texto": "Especialmente ao amanhecer e entardecer, quando o mosquito é mais ativo." },
+      { "titulo": "Telas e roupas claras", "texto": "Telas em janelas e roupas de manga longa diminuem o risco de picada." },
+      { "titulo": "Mantenha caixas d'água fechadas", "texto": "Tampe sempre, mesmo as menores." }
+    ],
+    "quandoBuscarAjuda": "Procure atendimento se a febre passar de 2 dias, ou imediatamente se houver qualquer sinal de agravamento.",
+    "vacina": {
+      "disponivel": true,
+      "publicoAlvo": "Crianças e adolescentes de 10 a 14 anos pelo SUS",
+      "observacao": "Existem vacinas particulares para outras faixas etárias. Converse com seu médico."
+    }
+  },
+  {
+    "slug": "influenza",
+    "nome": "Influenza (Gripe)",
+    "emoji": "🤒",
+    "corDestaque": "#0EA5E9",
+    "transmissao": "Gotículas respiratórias e contato com superfícies contaminadas.",
+    "descricao": "A influenza é uma infecção respiratória viral que costuma se intensificar no outono e inverno. Os subtipos mais comuns no Brasil são H1N1 e H3N2.",
+    "periodoIncubacao": "De 1 a 4 dias após o contato.",
+    "sintomas": [
+      { "rotulo": "Febre alta de início súbito", "icone": "termometro" },
+      { "rotulo": "Tosse seca", "icone": "tosse" },
+      { "rotulo": "Dor de garganta", "icone": "garganta" },
+      { "rotulo": "Dor no corpo e cansaço intenso", "icone": "corpo" },
+      { "rotulo": "Coriza e espirros", "icone": "nariz" }
+    ],
+    "agravamento": [
+      "Falta de ar ou respiração acelerada",
+      "Lábios ou unhas azulados",
+      "Dor ou pressão no peito",
+      "Confusão mental",
+      "Febre alta que não cede após 3 dias"
+    ],
+    "prevencao": [
+      { "titulo": "Vacine-se anualmente", "texto": "A composição muda todo ano, por isso a vacina precisa ser reforçada." },
+      { "titulo": "Lave as mãos com frequência", "texto": "Água e sabão por pelo menos 20 segundos." },
+      { "titulo": "Cubra tosse e espirro", "texto": "Use o antebraço ou um lenço descartável." },
+      { "titulo": "Evite aglomerações em pico", "texto": "Especialmente se você ou alguém próximo está com sintomas." }
+    ],
+    "quandoBuscarAjuda": "Procure atendimento se houver falta de ar, febre persistente por mais de 3 dias ou se você faz parte de grupo de risco (idosos, gestantes, crianças pequenas, imunossuprimidos).",
+    "vacina": {
+      "disponivel": true,
+      "publicoAlvo": "Campanha anual do SUS — todos a partir de 6 meses, com prioridade para grupos de risco",
+      "observacao": "Disponível também na rede privada."
+    }
+  },
+  {
+    "slug": "covid-19",
+    "nome": "COVID-19",
+    "emoji": "🦠",
+    "corDestaque": "#7C3AED",
+    "transmissao": "Gotículas respiratórias, aerossóis e contato direto.",
+    "descricao": "Causada pelo coronavírus SARS-CoV-2, a COVID-19 segue circulando com variantes. A maioria dos casos é leve, mas pode ser grave em grupos de risco.",
+    "periodoIncubacao": "De 2 a 14 dias, geralmente 5 dias.",
+    "sintomas": [
+      { "rotulo": "Febre", "icone": "termometro" },
+      { "rotulo": "Tosse seca ou produtiva", "icone": "tosse" },
+      { "rotulo": "Cansaço e dor no corpo", "icone": "corpo" },
+      { "rotulo": "Perda de olfato ou paladar", "icone": "olfato" },
+      { "rotulo": "Dor de garganta e coriza", "icone": "garganta" }
+    ],
+    "agravamento": [
+      "Falta de ar mesmo em repouso",
+      "Saturação de oxigênio abaixo de 94%",
+      "Confusão mental ou dificuldade para acordar",
+      "Lábios ou rosto azulados",
+      "Dor persistente no peito"
+    ],
+    "prevencao": [
+      { "titulo": "Mantenha a vacinação em dia", "texto": "Reforços são recomendados anualmente para grupos de risco." },
+      { "titulo": "Ventile ambientes fechados", "texto": "Abrir janelas reduz a concentração de aerossóis." },
+      { "titulo": "Use máscara se estiver com sintomas", "texto": "Especialmente em transporte público e ambientes de saúde." },
+      { "titulo": "Higienize as mãos", "texto": "Água e sabão ou álcool 70% com frequência." }
+    ],
+    "quandoBuscarAjuda": "Procure atendimento imediato em caso de falta de ar, saturação baixa ou qualquer sinal de agravamento. Pessoas de grupo de risco devem buscar avaliação precoce.",
+    "vacina": {
+      "disponivel": true,
+      "publicoAlvo": "Toda a população, com reforços conforme calendário do Ministério da Saúde",
+      "observacao": "Procure a UBS mais próxima para verificar a dose recomendada."
+    }
+  },
+  {
+    "slug": "chikungunya",
+    "nome": "Chikungunya",
+    "emoji": "🦟",
+    "corDestaque": "#F59E0B",
+    "transmissao": "Picada do mosquito Aedes aegypti infectado.",
+    "descricao": "A chikungunya é uma arbovirose conhecida por causar dores articulares intensas e prolongadas, que podem persistir por meses após a fase aguda.",
+    "periodoIncubacao": "De 2 a 12 dias após a picada.",
+    "sintomas": [
+      { "rotulo": "Febre alta de início súbito", "icone": "termometro" },
+      { "rotulo": "Dor intensa nas articulações", "icone": "articulacao" },
+      { "rotulo": "Inchaço nas juntas (mãos, pés, joelhos)", "icone": "incheo" },
+      { "rotulo": "Manchas na pele com coceira", "icone": "pele" },
+      { "rotulo": "Dor de cabeça e cansaço", "icone": "cabeca" }
+    ],
+    "agravamento": [
+      "Dor articular incapacitante",
+      "Sinais neurológicos (confusão, convulsão)",
+      "Sangramentos incomuns",
+      "Desidratação severa em crianças e idosos",
+      "Sintomas que persistem por mais de 14 dias"
+    ],
+    "prevencao": [
+      { "titulo": "Combata o Aedes aegypti", "texto": "Mesmas medidas da dengue: nada de água parada." },
+      { "titulo": "Repelente sempre", "texto": "Reaplique conforme a embalagem, principalmente em áreas expostas." },
+      { "titulo": "Mosquiteiros em camas", "texto": "Útil para bebês e idosos durante o dia." },
+      { "titulo": "Calçados e roupas longas", "texto": "Reduzem a área de pele exposta à picada." }
+    ],
+    "quandoBuscarAjuda": "Busque atendimento se a dor articular impedir movimentos, em caso de sintomas neurológicos ou se os sintomas durarem mais de 10 dias.",
+    "vacina": {
+      "disponivel": false,
+      "publicoAlvo": "Ainda não há vacina disponível pelo SUS",
+      "observacao": "Algumas vacinas estão em fase final de aprovação no Brasil."
+    }
+  }
+]

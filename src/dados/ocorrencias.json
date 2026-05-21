@@ -1,0 +1,38 @@
+{
+  "São Paulo": {
+    "atualizadoEm": "2026-05-15",
+    "epidemias": {
+      "dengue":      { "nivel": "alto",    "resumo": "Surto significativo na zona leste. Mantenha quintais sem água parada." },
+      "influenza":   { "nivel": "atencao", "resumo": "Casos subindo com a chegada do outono. Reforce a vacinação." },
+      "covid-19":    { "nivel": "estavel", "resumo": "Número de casos estável nas últimas semanas." },
+      "chikungunya": { "nivel": "atencao", "resumo": "Aumento gradual confirmado em bairros da zona sul." }
+    }
+  },
+  "Recife": {
+    "atualizadoEm": "2026-05-15",
+    "epidemias": {
+      "dengue":      { "nivel": "alto",    "resumo": "Capital com alerta máximo. Mutirões de combate ao Aedes ativos." },
+      "influenza":   { "nivel": "estavel", "resumo": "Casos controlados, mas grupos de risco devem se vacinar." },
+      "covid-19":    { "nivel": "estavel", "resumo": "Casos baixos, sem indícios de surto." },
+      "chikungunya": { "nivel": "alto",    "resumo": "Coinfecção com dengue preocupa a vigilância epidemiológica." }
+    }
+  },
+  "Rio de Janeiro": {
+    "atualizadoEm": "2026-05-15",
+    "epidemias": {
+      "dengue":      { "nivel": "alto",    "resumo": "Estado em emergência de saúde pública. Atenção redobrada." },
+      "influenza":   { "nivel": "atencao", "resumo": "Curva de casos em crescimento. Vacinação aberta para toda a população." },
+      "covid-19":    { "nivel": "atencao", "resumo": "Pequeno aumento de internações em idosos." },
+      "chikungunya": { "nivel": "atencao", "resumo": "Casos em alta na Baixada Fluminense." }
+    }
+  },
+  "Porto Alegre": {
+    "atualizadoEm": "2026-05-15",
+    "epidemias": {
+      "dengue":      { "nivel": "atencao", "resumo": "Casos crescendo mesmo no clima mais frio. Atenção aos focos urbanos." },
+      "influenza":   { "nivel": "alto",    "resumo": "Pico sazonal típico do Sul. Vacinação é a principal proteção." },
+      "covid-19":    { "nivel": "atencao", "resumo": "Pequena alta entre idosos. Reforço recomendado." },
+      "chikungunya": { "nivel": "estavel", "resumo": "Poucos casos registrados na cidade." }
+    }
+  }
+}

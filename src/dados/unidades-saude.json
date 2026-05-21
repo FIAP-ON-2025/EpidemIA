@@ -1,0 +1,271 @@
+{
+  "São Paulo": [
+    {
+      "nome": "Hospital das Clínicas da FMUSP",
+      "tipo": "Hospital",
+      "endereco": "Av. Dr. Enéas de Carvalho Aguiar, 255 - Cerqueira César",
+      "telefone": "(11) 2661-0000",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+das+Cl%C3%ADnicas+FMUSP"
+    },
+    {
+      "nome": "UPA Vila Maria",
+      "tipo": "UPA",
+      "endereco": "R. Alfredo Maia, 215 - Vila Guilherme",
+      "telefone": "(11) 2967-3700",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Vila+Maria+S%C3%A3o+Paulo"
+    },
+    {
+      "nome": "UBS Jardim São Jorge",
+      "tipo": "UBS",
+      "endereco": "R. Itararé, 690 - Jardim São Jorge",
+      "telefone": "(11) 3873-3000",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/UBS+Jardim+S%C3%A3o+Jorge"
+    },
+    {
+      "nome": "AMA/UBS Integrada Jardim Mitsutani",
+      "tipo": "UBS",
+      "endereco": "R. Domingos Lopes da Silva, 81 - Capão Redondo",
+      "telefone": "(11) 5851-1010",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/AMA+UBS+Jardim+Mitsutani"
+    },
+    {
+      "nome": "Hospital Municipal Tide Setúbal",
+      "tipo": "Hospital",
+      "endereco": "Av. São Miguel, 5550 - Vila Curuçá",
+      "telefone": "(11) 2842-0700",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Tide+Set%C3%BAbal"
+    },
+    {
+      "nome": "Farmácia Popular Bom Retiro",
+      "tipo": "Farmácia Popular",
+      "endereco": "R. Três Rios, 363 - Bom Retiro",
+      "telefone": "(11) 3326-4400",
+      "atendimento24h": false,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Farm%C3%A1cia+Popular+Bom+Retiro"
+    },
+    {
+      "nome": "UPA Ermelino Matarazzo",
+      "tipo": "UPA",
+      "endereco": "R. Erva de Santa Maria, 65 - Ermelino Matarazzo",
+      "telefone": "(11) 2541-6800",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Ermelino+Matarazzo"
+    },
+    {
+      "nome": "UBS Vila Mariana",
+      "tipo": "UBS",
+      "endereco": "R. Vergueiro, 2962 - Vila Mariana",
+      "telefone": "(11) 5081-5000",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/UBS+Vila+Mariana"
+    }
+  ],
+  "Recife": [
+    {
+      "nome": "Hospital da Restauração",
+      "tipo": "Hospital",
+      "endereco": "Av. Agamenon Magalhães, s/n - Derby",
+      "telefone": "(81) 3181-5400",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+da+Restaura%C3%A7%C3%A3o+Recife"
+    },
+    {
+      "nome": "UPA Caxangá",
+      "tipo": "UPA",
+      "endereco": "Av. Caxangá, 5151 - Cidade Universitária",
+      "telefone": "(81) 3355-1234",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Caxang%C3%A1+Recife"
+    },
+    {
+      "nome": "UPA Torrões",
+      "tipo": "UPA",
+      "endereco": "R. Padre Roma, 615 - Torrões",
+      "telefone": "(81) 3355-3060",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Torr%C3%B5es+Recife"
+    },
+    {
+      "nome": "Policlínica Lessa de Andrade",
+      "tipo": "UBS",
+      "endereco": "Av. Caxangá, 743 - Madalena",
+      "telefone": "(81) 3355-7700",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/Policl%C3%ADnica+Lessa+de+Andrade"
+    },
+    {
+      "nome": "UBS Sítio dos Pintos",
+      "tipo": "UBS",
+      "endereco": "R. Riacho do Navio, s/n - Sítio dos Pintos",
+      "telefone": "(81) 3355-4400",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/UBS+S%C3%ADtio+dos+Pintos"
+    },
+    {
+      "nome": "Hospital Universitário Oswaldo Cruz",
+      "tipo": "Hospital",
+      "endereco": "R. Arnóbio Marques, 310 - Santo Amaro",
+      "telefone": "(81) 3184-1100",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Oswaldo+Cruz+Recife"
+    },
+    {
+      "nome": "Farmácia Popular Conde da Boa Vista",
+      "tipo": "Farmácia Popular",
+      "endereco": "Av. Conde da Boa Vista, 1115 - Boa Vista",
+      "telefone": "(81) 3224-1170",
+      "atendimento24h": false,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Farm%C3%A1cia+Popular+Conde+da+Boa+Vista"
+    }
+  ],
+  "Rio de Janeiro": [
+    {
+      "nome": "Hospital Municipal Souza Aguiar",
+      "tipo": "Hospital",
+      "endereco": "Pç. da República, 111 - Centro",
+      "telefone": "(21) 3111-2733",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Souza+Aguiar"
+    },
+    {
+      "nome": "UPA 24h Madureira",
+      "tipo": "UPA",
+      "endereco": "R. Soares Caldeira, 89 - Madureira",
+      "telefone": "(21) 2452-1500",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Madureira+RJ"
+    },
+    {
+      "nome": "UPA 24h Engenho Novo",
+      "tipo": "UPA",
+      "endereco": "R. Borja Reis, 549 - Engenho de Dentro",
+      "telefone": "(21) 2596-7300",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Engenho+Novo"
+    },
+    {
+      "nome": "CMS Heitor Beltrão",
+      "tipo": "UBS",
+      "endereco": "R. Santa Sofia, 25 - Tijuca",
+      "telefone": "(21) 2293-1212",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/CMS+Heitor+Beltr%C3%A3o+Tijuca"
+    },
+    {
+      "nome": "Clínica da Família Rinaldo Delamare",
+      "tipo": "UBS",
+      "endereco": "R. Itacuruçá, s/n - Rocinha",
+      "telefone": "(21) 2275-0270",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/Cl%C3%ADnica+da+Fam%C3%ADlia+Rinaldo+Delamare"
+    },
+    {
+      "nome": "Hospital Federal de Bonsucesso",
+      "tipo": "Hospital",
+      "endereco": "Av. Londres, 616 - Bonsucesso",
+      "telefone": "(21) 3977-0500",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Federal+de+Bonsucesso"
+    },
+    {
+      "nome": "Farmácia Popular Copacabana",
+      "tipo": "Farmácia Popular",
+      "endereco": "R. Barata Ribeiro, 502 - Copacabana",
+      "telefone": "(21) 2547-2002",
+      "atendimento24h": false,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Farm%C3%A1cia+Popular+Copacabana"
+    }
+  ],
+  "Porto Alegre": [
+    {
+      "nome": "Hospital de Pronto Socorro de Porto Alegre",
+      "tipo": "Hospital",
+      "endereco": "Largo Teodoro Herzl, s/n - Bom Fim",
+      "telefone": "(51) 3289-7999",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Pronto+Socorro+Porto+Alegre"
+    },
+    {
+      "nome": "Hospital de Clínicas de Porto Alegre",
+      "tipo": "Hospital",
+      "endereco": "R. Ramiro Barcelos, 2350 - Santa Cecília",
+      "telefone": "(51) 3359-8000",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Hospital+Cl%C3%ADnicas+Porto+Alegre"
+    },
+    {
+      "nome": "UPA Moacyr Scliar (Lomba do Pinheiro)",
+      "tipo": "UPA",
+      "endereco": "Estr. João de Oliveira Remião, 4135 - Lomba do Pinheiro",
+      "telefone": "(51) 3289-3500",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Moacyr+Scliar+Porto+Alegre"
+    },
+    {
+      "nome": "UPA Zona Norte",
+      "tipo": "UPA",
+      "endereco": "Av. Sertório, 6600 - Sarandi",
+      "telefone": "(51) 3289-2300",
+      "atendimento24h": true,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/UPA+Zona+Norte+Porto+Alegre"
+    },
+    {
+      "nome": "UBS Bom Jesus",
+      "tipo": "UBS",
+      "endereco": "R. Bom Jesus, 410 - Bom Jesus",
+      "telefone": "(51) 3289-2700",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/UBS+Bom+Jesus+Porto+Alegre"
+    },
+    {
+      "nome": "UBS Vila Cruzeiro",
+      "tipo": "UBS",
+      "endereco": "R. Prof. Manoel Lobato, 151 - Santa Tereza",
+      "telefone": "(51) 3289-2150",
+      "atendimento24h": false,
+      "vacinacao": true,
+      "mapsUrl": "https://www.google.com/maps/search/UBS+Vila+Cruzeiro+Porto+Alegre"
+    },
+    {
+      "nome": "Farmácia Popular Centro Histórico",
+      "tipo": "Farmácia Popular",
+      "endereco": "R. dos Andradas, 1234 - Centro Histórico",
+      "telefone": "(51) 3228-3344",
+      "atendimento24h": false,
+      "vacinacao": false,
+      "mapsUrl": "https://www.google.com/maps/search/Farm%C3%A1cia+Popular+Centro+Porto+Alegre"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "uf": "SP",
+    "nome": "São Paulo",
+    "cidades": ["São Paulo"]
+  },
+  {
+    "uf": "PE",
+    "nome": "Pernambuco",
+    "cidades": ["Recife"]
+  },
+  {
+    "uf": "RJ",
+    "nome": "Rio de Janeiro",
+    "cidades": ["Rio de Janeiro"]
+  },
+  {
+    "uf": "RS",
+    "nome": "Rio Grande do Sul",
+    "cidades": ["Porto Alegre"]
+  }
+]

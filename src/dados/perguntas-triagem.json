@@ -1,0 +1,63 @@
+[
+  {
+    "id": "sintomas",
+    "pergunta": "Quais sintomas você está sentindo agora?",
+    "ajuda": "Marque todos que se aplicam.",
+    "tipo": "multipla",
+    "opcoes": [
+      { "valor": "febre",       "rotulo": "Febre",                          "peso": 3, "emoji": "🌡️" },
+      { "valor": "dor_corpo",   "rotulo": "Dor no corpo ou nas articulações", "peso": 2, "emoji": "💪" },
+      { "valor": "dor_cabeca",  "rotulo": "Dor de cabeça intensa",          "peso": 2, "emoji": "🤕" },
+      { "valor": "manchas",     "rotulo": "Manchas vermelhas na pele",      "peso": 3, "emoji": "🩹" },
+      { "valor": "tosse",       "rotulo": "Tosse persistente",              "peso": 2, "emoji": "😷" },
+      { "valor": "falta_ar",    "rotulo": "Falta de ar",                    "peso": 4, "emoji": "🫁" },
+      { "valor": "nenhum",      "rotulo": "Nenhum sintoma",                 "peso": 0, "emoji": "🙂" }
+    ]
+  },
+  {
+    "id": "tempo",
+    "pergunta": "Há quanto tempo os sintomas começaram?",
+    "tipo": "unica",
+    "opcoes": [
+      { "valor": "sem_sintomas",   "rotulo": "Estou sem sintomas",              "peso": 0 },
+      { "valor": "menos_24h",      "rotulo": "Menos de 24 horas",               "peso": 1 },
+      { "valor": "1_3_dias",       "rotulo": "Entre 1 e 3 dias",                "peso": 2 },
+      { "valor": "mais_3_dias",    "rotulo": "Mais de 3 dias",                  "peso": 3 }
+    ]
+  },
+  {
+    "id": "contato",
+    "pergunta": "Você teve contato próximo com alguém doente recentemente?",
+    "ajuda": "Família, colegas de trabalho, escola.",
+    "tipo": "unica",
+    "opcoes": [
+      { "valor": "nao",            "rotulo": "Não",                              "peso": 0 },
+      { "valor": "talvez",         "rotulo": "Não tenho certeza",                "peso": 1 },
+      { "valor": "sim",            "rotulo": "Sim, contato confirmado",          "peso": 2 }
+    ]
+  },
+  {
+    "id": "exposicao",
+    "pergunta": "Esteve exposto a alguma destas situações nas últimas 2 semanas?",
+    "tipo": "multipla",
+    "opcoes": [
+      { "valor": "agua_parada",      "rotulo": "Locais com água parada ou muitos mosquitos", "peso": 2, "emoji": "💧" },
+      { "valor": "aglomeracao",      "rotulo": "Aglomerações em ambientes fechados",         "peso": 1, "emoji": "👥" },
+      { "valor": "viagem",           "rotulo": "Viagem a região com surto",                  "peso": 2, "emoji": "✈️" },
+      { "valor": "ambiente_saude",   "rotulo": "Hospital ou pronto-socorro",                  "peso": 1, "emoji": "🏥" },
+      { "valor": "nenhuma_exposicao","rotulo": "Nenhuma dessas",                              "peso": 0, "emoji": "🙅" }
+    ]
+  },
+  {
+    "id": "prevencao",
+    "pergunta": "Quais cuidados preventivos você mantém em dia?",
+    "tipo": "multipla",
+    "opcoes": [
+      { "valor": "vacina_gripe",   "rotulo": "Vacina da gripe atualizada",     "peso": -1, "emoji": "💉" },
+      { "valor": "vacina_covid",   "rotulo": "Vacinas de COVID-19 em dia",      "peso": -1, "emoji": "💉" },
+      { "valor": "repelente",      "rotulo": "Uso repelente regularmente",      "peso": -1, "emoji": "🧴" },
+      { "valor": "agua_eliminada", "rotulo": "Mantenho casa sem água parada",   "peso": -1, "emoji": "🪣" },
+      { "valor": "nenhum_cuidado", "rotulo": "Nenhum desses",                   "peso": 1,  "emoji": "🙈" }
+    ]
+  }
+]
