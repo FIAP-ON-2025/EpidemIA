@@ -78,49 +78,6 @@ export default function SobreProjeto() {
 
   return (
     <>
-      <section className="py-16 bg-slate-50">
-        <Container>
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold text-texto mb-3">
-              Quem Desenvolveu o Projeto
-            </h2>
-            <p className="text-slate-600">
-              Conheça a equipe de Engenharia de Software da FIAP responsável
-              pelo desenvolvimento da plataforma.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
-            {equipe.map((membro) => (
-              <div
-                key={membro.id}
-                className="bg-white rounded-cartao shadow-md border-2 border-slate-200 p-5 flex flex-col items-center text-center hover:-translate-y-2 hover:shadow-2xl hover:border-primaria-500 transition-all duration-300 h-full"
-              >
-                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-4 border-primaria-600 shadow-md shrink-0">
-                  <img
-                    src={membro.foto}
-                    alt={membro.nome}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-
-                <h3 className="text-base font-extrabold text-texto mb-1 min-h-[3rem] flex items-center justify-center w-full">
-                  {membro.nome}
-                </h3>
-
-                <span className="text-xs font-bold px-2.5 py-2 rounded-md bg-primaria-50 text-primaria-700 border border-primaria-200 block w-full min-h-[3.5rem] flex items-center justify-center my-2 shadow-sm">
-                  {membro.funcao}
-                </span>
-
-                <p className="text-xs text-slate-600 tracking-normal leading-relaxed mt-3 text-center flex-grow min-h-[150px] px-1">
-                  {membro.descricao}
-                </p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
       <section className="bg-gradient-to-b from-primaria-50 to-fundo pt-12 pb-20 sm:pt-20 sm:pb-28">
         <Container>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -224,6 +181,96 @@ export default function SobreProjeto() {
                 🗺️ Google Maps
               </span>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16 bg-white border-b border-slate-200">
+        <Container>
+          <div className="grid lg:grid-cols-12 gap-12 items-center">
+            <div className="lg:col-span-7">
+              <span className="text-xs font-bold uppercase tracking-wider text-primaria-600 bg-primaria-50 px-3 py-1 rounded-full">
+                Nossa Missão
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-texto mt-3 mb-6 leading-tight">
+                O que é o Radar Epidemiológico?
+              </h2>
+              <p className="text-base text-slate-600 leading-relaxed text-justify">
+                O Radar Epidemiológico é uma plataforma desenvolvida para
+                facilitar o acesso da população a informações sobre surtos e
+                epidemias de forma simples, organizada e acessível. O sistema
+                utiliza inteiramente dados públicos da área da saúde para
+                apresentar alertas epidemiológicos, orientações de prevenção e
+                informações relevantes para os usuários. Além disso, hospitais,
+                UBSs, UPAs e outros pontos de atendimento também são exibidos
+                através desses dados públicos, auxiliando no direcionamento dos
+                usuários e contribuindo para a conscientização e apoio à saúde
+                pública por meio da tecnologia.
+              </p>
+            </div>
+
+            <div className="lg:col-span-5 bg-slate-50 border-2 border-slate-200 p-6 rounded-cartao shadow-sm">
+              <h3 className="text-lg font-bold text-texto mb-4">
+                Pilares do Nosso Site
+              </h3>
+              <ul className="space-y-4 text-sm text-slate-600">
+                <li className="flex items-start gap-3">
+                  <span className="text-primaria-600 font-bold">✓</span>
+                  <span>Transparência com dados públicos oficiais.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primaria-600 font-bold">✓</span>
+                  <span>Linguagem acessível e direto ao ponto.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primaria-600 font-bold">✓</span>
+                  <span>Orientação rápida para unidades de saúde.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16 bg-slate-50">
+        <Container>
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-3xl font-bold text-texto mb-3">
+              Quem Desenvolveu o Projeto
+            </h2>
+            <p className="text-slate-600">
+              Estas são as mentes e códigos por trás do nosso portal, criados
+              por nossa equipe de estudantes de Engenharia de Software da FIAP.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
+            {equipe.map((membro) => (
+              <div
+                key={membro.id}
+                className="bg-white rounded-cartao shadow-md border-2 border-slate-200 p-5 flex flex-col items-center text-center hover:-translate-y-2 hover:shadow-2xl hover:border-primaria-500 transition-all duration-300 h-full"
+              >
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-4 border-primaria-600 shadow-md shrink-0">
+                  <img
+                    src={membro.foto}
+                    alt={membro.nome}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <h3 className="text-base font-extrabold text-texto mb-1 min-h-[3rem] flex items-center justify-center w-full">
+                  {membro.nome}
+                </h3>
+
+                <span className="text-xs font-bold px-2.5 py-2 rounded-md bg-primaria-50 text-primaria-700 border border-primaria-200 block w-full min-h-[3.5rem] flex items-center justify-center my-2 shadow-sm">
+                  {membro.funcao}
+                </span>
+
+                <p className="text-xs text-slate-600 tracking-normal leading-relaxed mt-3 text-center flex-grow min-h-[150px] px-1">
+                  {membro.descricao}
+                </p>
+              </div>
+            ))}
           </div>
         </Container>
       </section>
