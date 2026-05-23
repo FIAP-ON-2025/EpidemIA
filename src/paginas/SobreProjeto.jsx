@@ -132,59 +132,6 @@ export default function SobreProjeto() {
         </Container>
       </section>
 
-      <section className="-mt-12 mb-12">
-        <Container>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {blocos.map((b) => (
-              <div
-                key={b.titulo}
-                className="bg-white rounded-cartao shadow-cartao border border-slate-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all"
-              >
-                <span className="text-3xl block mb-3" aria-hidden>
-                  {b.emoji}
-                </span>
-                <h3 className="text-lg font-bold text-texto mb-2">
-                  {b.titulo}
-                </h3>
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  {b.texto}
-                </p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="py-12 bg-white border-y border-slate-200">
-        <Container>
-          <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-texto mb-4">
-              Informação confiável, na hora certa.
-            </h2>
-            <p className="text-slate-600 mb-8">
-              Cruzamos dados públicos do <strong>DataSUS</strong>, do{" "}
-              <strong>Ministério da Saúde</strong> e das secretarias estaduais
-              para te mostrar — sem números complicados — o que realmente
-              importa.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 text-sm">
-              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
-                📊 DataSUS
-              </span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
-                🏛️ Ministério da Saúde
-              </span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
-                📍 CNES
-              </span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
-                🗺️ Google Maps
-              </span>
-            </div>
-          </div>
-        </Container>
-      </section>
-
       <section className="py-16 bg-white border-b border-slate-200">
         <Container>
           <div className="grid lg:grid-cols-12 gap-12 items-center">
@@ -271,6 +218,59 @@ export default function SobreProjeto() {
                 </p>
               </div>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="-mt-12 mb-12">
+        <Container>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {blocos.map((b) => (
+              <div
+                key={b.titulo}
+                className="bg-white rounded-cartao shadow-cartao border border-slate-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all"
+              >
+                <span className="text-3xl block mb-3" aria-hidden>
+                  {b.emoji}
+                </span>
+                <h3 className="text-lg font-bold text-texto mb-2">
+                  {b.titulo}
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {b.texto}
+                </p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-12 bg-white border-y border-slate-200">
+        <Container>
+          <div className="text-center max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-texto mb-4">
+              Informação confiável, na hora certa.
+            </h2>
+            <p className="text-slate-600 mb-8">
+              Cruzamos dados públicos do <strong>DataSUS</strong>, do{" "}
+              <strong>Ministério da Saúde</strong> e das secretarias estaduais
+              para te mostrar — sem números complicados — o que realmente
+              importa.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3 text-sm">
+              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
+                📊 DataSUS
+              </span>
+              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
+                🏛️ Ministério da Saúde
+              </span>
+              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
+                📍 CNES
+              </span>
+              <span className="px-3 py-1.5 rounded-full bg-slate-100 text-slate-700">
+                🗺️ Google Maps
+              </span>
+            </div>
           </div>
         </Container>
       </section>
