@@ -1,32 +1,40 @@
-import { useState } from 'react'
-import { usarNavegacao } from '../../contextos/ContextoNavegacao'
-import Container from './Container'
+import { useState } from "react";
+import { usarNavegacao } from "../../contextos/ContextoNavegacao";
+import Container from "./Container";
 
 const itensMenu = [
-  { id: 'inicio',   rotulo: 'Início' },
-  { id: 'radar',    rotulo: 'Radar' },
-  { id: 'locais',   rotulo: 'Atendimento' },
-  { id: 'triagem',  rotulo: 'Triagem' },
-]
+  { id: "sobre-o-projeto", rotulo: "Sobre o projeto" },
+  { id: "radar", rotulo: "Radar" },
+  { id: "locais", rotulo: "Atendimento" },
+  { id: "triagem", rotulo: "Triagem" },
+];
 
 export default function Cabecalho() {
-  const { pagina, navegar } = usarNavegacao()
-  const [menuAberto, definirMenuAberto] = useState(false)
+  const { pagina, navegar } = usarNavegacao();
+  const [menuAberto, definirMenuAberto] = useState(false);
 
   const clicarItem = (id) => {
-    navegar(id)
-    definirMenuAberto(false)
-  }
+    navegar(id);
+    definirMenuAberto(false);
+  };
 
   return (
     <header className="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
       <Container className="flex items-center justify-between h-16">
         <button
-          onClick={() => clicarItem('inicio')}
+          onClick={() => clicarItem("inicio")}
           className="flex items-center gap-2 group"
         >
           <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-primaria-500 text-white">
-            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              viewBox="0 0 24 24"
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <path d="M3 12h4l2-7 4 14 2-7h6" />
             </svg>
           </span>
@@ -41,9 +49,10 @@ export default function Cabecalho() {
               key={item.id}
               onClick={() => clicarItem(item.id)}
               className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                pagina === item.id || (item.id === 'radar' && pagina === 'detalhe-epidemia')
-                  ? 'bg-primaria-50 text-primaria-700'
-                  : 'text-slate-600 hover:bg-slate-100 hover:text-texto'
+                pagina === item.id ||
+                (item.id === "radar" && pagina === "detalhe-epidemia")
+                  ? "bg-primaria-50 text-primaria-700"
+                  : "text-slate-600 hover:bg-slate-100 hover:text-texto"
               }`}
             >
               {item.rotulo}
@@ -56,7 +65,15 @@ export default function Cabecalho() {
           onClick={() => definirMenuAberto((v) => !v)}
           aria-label="Abrir menu"
         >
-          <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            viewBox="0 0 24 24"
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             {menuAberto ? (
               <>
                 <line x1="18" y1="6" x2="6" y2="18" />
@@ -65,7 +82,7 @@ export default function Cabecalho() {
             ) : (
               <>
                 <line x1="3" y1="12" x2="21" y2="12" />
-                <line x1="3" y1="6"  x2="21" y2="6" />
+                <line x1="3" y1="6" x2="21" y2="6" />
                 <line x1="3" y1="18" x2="21" y2="18" />
               </>
             )}
@@ -82,8 +99,8 @@ export default function Cabecalho() {
                 onClick={() => clicarItem(item.id)}
                 className={`text-left px-3 py-3 rounded-lg text-sm font-medium ${
                   pagina === item.id
-                    ? 'bg-primaria-50 text-primaria-700'
-                    : 'text-slate-700 hover:bg-slate-100'
+                    ? "bg-primaria-50 text-primaria-700"
+                    : "text-slate-700 hover:bg-slate-100"
                 }`}
               >
                 {item.rotulo}
@@ -93,5 +110,5 @@ export default function Cabecalho() {
         </nav>
       )}
     </header>
-  )
+  );
 }
