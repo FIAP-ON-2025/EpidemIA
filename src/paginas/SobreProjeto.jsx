@@ -166,35 +166,51 @@ export default function SobreProjeto() {
                 O que é o Radar Epidemiológico?
               </h2>
               <p className="text-base text-slate-600 leading-relaxed text-justify">
-                O Radar Epidemiológico é uma plataforma desenvolvida para
-                facilitar o acesso da população a informações sobre surtos e
-                epidemias de forma simples, organizada e acessível. O sistema
-                utiliza inteiramente dados públicos da área da saúde para
-                apresentar alertas epidemiológicos, orientações de prevenção e
-                informações relevantes para os usuários. Além disso, hospitais,
-                UBSs, UPAs e outros pontos de atendimento também são exibidos
-                através desses dados públicos, auxiliando no direcionamento dos
-                usuários e contribuindo para a conscientização e apoio à saúde
-                pública por meio da tecnologia.
+                O Radar Epidemiológico é uma plataforma desenvolvida em React e
+                Vite para facilitar o acesso da população a informações sobre
+                surtos e epidemias de forma simples, organizada e acessível. O
+                sistema utiliza dados públicos da área da saúde estruturados em
+                formato JSON para apresentar alertas epidemiológicos,
+                orientações de prevenção e mapeamento de pontos de atendimento
+                (como hospitais, UBSs e UPAs). Através dessa tecnologia e de uma
+                arquitetura componentizada, o site auxilia no direcionamento dos
+                usuários e contribui diretamente para a conscientização e apoio
+                à saúde pública.
               </p>
             </div>
 
             <div className="lg:col-span-5 bg-slate-50 border-2 border-slate-200 p-6 rounded-cartao shadow-sm">
               <h3 className="text-lg font-bold text-texto mb-4">
-                Pilares do Nosso Site
+                Tecnologias do Nosso Site
               </h3>
               <ul className="space-y-4 text-sm text-slate-600">
                 <li className="flex items-start gap-3">
                   <span className="text-primaria-600 font-bold">✓</span>
-                  <span>Transparência com dados públicos oficiais.</span>
+                  <span>
+                    <strong>React & Vite:</strong> Estrutura moderna para
+                    renderização rápida do site.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primaria-600 font-bold">✓</span>
-                  <span>Linguagem acessível e direto ao ponto.</span>
+                  <span>
+                    <strong>React Context API:</strong> Gerenciamento
+                    inteligente dos fluxos da triagem.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primaria-600 font-bold">✓</span>
-                  <span>Orientação rápida para unidades de saúde.</span>
+                  <span>
+                    <strong>JSON Local:</strong> Armazenamento seguro dos dados
+                    públicos de saúde.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primaria-600 font-bold">✓</span>
+                  <span>
+                    <strong>Git & GitHub:</strong> Controle de versão e
+                    versionamento do código do grupo.
+                  </span>
                 </li>
               </ul>
             </div>
