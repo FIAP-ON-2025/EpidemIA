@@ -132,6 +132,29 @@ export default function SobreProjeto() {
         </Container>
       </section>
 
+      <section className="-mt-12 mb-12">
+        <Container>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {blocos.map((b) => (
+              <div
+                key={b.titulo}
+                className="bg-white rounded-cartao shadow-cartao border border-slate-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all"
+              >
+                <span className="text-3xl block mb-3" aria-hidden>
+                  {b.emoji}
+                </span>
+                <h3 className="text-lg font-bold text-texto mb-2">
+                  {b.titulo}
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {b.texto}
+                </p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       <section className="py-16 bg-white border-b border-slate-200">
         <Container>
           <div className="grid lg:grid-cols-12 gap-12 items-center">
@@ -215,29 +238,6 @@ export default function SobreProjeto() {
 
                 <p className="text-xs text-slate-600 tracking-normal leading-relaxed mt-3 text-center flex-grow min-h-[150px] px-1">
                   {membro.descricao}
-                </p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      <section className="-mt-12 mb-12">
-        <Container>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {blocos.map((b) => (
-              <div
-                key={b.titulo}
-                className="bg-white rounded-cartao shadow-cartao border border-slate-100 p-6 hover:-translate-y-1 hover:shadow-lg transition-all"
-              >
-                <span className="text-3xl block mb-3" aria-hidden>
-                  {b.emoji}
-                </span>
-                <h3 className="text-lg font-bold text-texto mb-2">
-                  {b.titulo}
-                </h3>
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  {b.texto}
                 </p>
               </div>
             ))}
