@@ -94,9 +94,9 @@ export default function SobreProjeto() {
             {equipe.map((membro) => (
               <div
                 key={membro.id}
-                className="bg-white rounded-cartao shadow-cartao border border-slate-100 p-5 flex flex-col items-center text-center hover:-translate-y-1 hover:shadow-lg transition-all h-full"
+                className="bg-white rounded-cartao shadow-md border-2 border-slate-200 p-5 flex flex-col items-center text-center hover:-translate-y-2 hover:shadow-2xl hover:border-primaria-500 transition-all duration-300 h-full"
               >
-                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-primaria-100 shrink-0">
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-4 border-primaria-600 shadow-md shrink-0">
                   <img
                     src={membro.foto}
                     alt={membro.nome}
@@ -104,15 +104,15 @@ export default function SobreProjeto() {
                   />
                 </div>
 
-                <h3 className="text-base font-bold text-texto mb-1 min-h-[3rem] flex items-center justify-center w-full">
+                <h3 className="text-base font-extrabold text-texto mb-1 min-h-[3rem] flex items-center justify-center w-full">
                   {membro.nome}
                 </h3>
 
-                <span className="text-xs font-semibold px-2.5 py-1.5 rounded-md bg-slate-100 text-slate-700 border border-slate-200 block w-full min-h-[3.5rem] flex items-center justify-center my-2">
+                <span className="text-xs font-bold px-2.5 py-2 rounded-md bg-primaria-50 text-primaria-700 border border-primaria-200 block w-full min-h-[3.5rem] flex items-center justify-center my-2 shadow-sm">
                   {membro.funcao}
                 </span>
 
-                <p className="text-xs text-slate-500 leading-relaxed mt-2 text-justify flex-grow min-h-[140px]">
+                <p className="text-xs text-slate-600 tracking-normal leading-relaxed mt-3 text-center flex-grow min-h-[150px] px-1">
                   {membro.descricao}
                 </p>
               </div>
