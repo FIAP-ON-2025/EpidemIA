@@ -39,7 +39,7 @@ export default function Cabecalho() {
             </svg>
           </span>
           <span className="font-bold text-lg text-texto group-hover:text-primaria-700 transition-colors">
-            Epidemia<span className="text-primaria-500">Radar</span>
+            Radar<span className="text-primaria-500"> Epidemiológico</span>
           </span>
         </button>
 
