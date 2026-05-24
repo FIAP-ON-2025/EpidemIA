@@ -1,6 +1,6 @@
 import Cabecalho from "./componentes/layout/Cabecalho";
 import Rodape from "./componentes/layout/Rodape";
-import SobreProjeto from "./paginas/SobreProjeto";
+import Index from "./paginas/Index";
 import Radar from "./paginas/Radar";
 import DetalheEpidemia from "./paginas/DetalheEpidemia";
 import LocaisAtendimento from "./paginas/LocaisAtendimento";
@@ -16,7 +16,7 @@ function RenderizarPagina() {
 
   switch (pagina) {
     case "sobre-o-projeto":
-      return <SobreProjeto />;
+      return <Index />;
     case "radar":
       return <Radar />;
     case "detalhe-epidemia":
@@ -26,7 +26,7 @@ function RenderizarPagina() {
     case "triagem":
       return <Triagem />;
     default:
-      return <SobreProjeto />;
+      return <Index />;
   }
 }
 

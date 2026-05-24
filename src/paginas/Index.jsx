@@ -73,7 +73,7 @@ const equipe = [
   },
 ];
 
-export default function SobreProjeto() {
+export default function Index() {
   const { navegar } = usarNavegacao();
 
   return (
@@ -257,6 +257,26 @@ export default function SobreProjeto() {
                 </p>
               </div>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16 bg-white border-t border-slate-200">
+        <Container>
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-texto mb-8">
+              Pitch do Projeto
+            </h2>
+            <div className="relative w-full overflow-hidden rounded-2xl shadow-xl border-4 border-slate-100" style={{ paddingTop: '56.25%' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/4W7gnDjrj5Q"
+                title="Pitch do Projeto"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </Container>
       </section>
